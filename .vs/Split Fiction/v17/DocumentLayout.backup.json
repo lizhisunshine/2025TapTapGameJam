@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\UnityProject\\Split Fiction\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC250C3F-4E4D-3D6C-4455-0ECA295F2987}|Assembly-CSharp.csproj|e:\\unityproject\\split fiction\\assets\\lizhi\\scripts\\player\\playerraycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC250C3F-4E4D-3D6C-4455-0ECA295F2987}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\player\\playerraycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Player\\PlayerRaycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\PlayerRaycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC250C3F-4E4D-3D6C-4455-0ECA295F2987}|Assembly-CSharp.csproj|E:\\UnityProject\\Split Fiction\\assets\\quickoutline\\scripts\\outline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC250C3F-4E4D-3D6C-4455-0ECA295F2987}|Assembly-CSharp.csproj|solutionrelative:assets\\quickoutline\\scripts\\outline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\WalkState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\WalkState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\BaseState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BaseState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityProject\\Split Fiction\\Library\\PackageCache\\com.unity.cinemachine@2.10.5\\Runtime\\Behaviours\\CinemachineBrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.cinemachine@2.10.5\\Runtime\\Behaviours\\CinemachineBrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\RunState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\RunState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\IdleState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\IdleState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\PlayerFsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerFsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Player\\WalkState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\WalkState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Player\\BaseState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\BaseState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Tools\\Torch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Tools\\Torch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Tools\\BaseTool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Tools\\BaseTool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Player\\TextGetUpSth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\TextGetUpSth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\DisslutionCenter1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DisslutionCenter1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Mapchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Mapchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\DisslutionCenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DisslutionCenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerRaycast.cs",
+              "DocumentMoniker": "E:\\UnityProject\\Split Fiction\\Assets\\LiZhi\\Scripts\\Player\\PlayerRaycast.cs",
+              "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Player\\PlayerRaycast.cs",
+              "ToolTip": "E:\\UnityProject\\Split Fiction\\Assets\\LiZhi\\Scripts\\Player\\PlayerRaycast.cs",
+              "RelativeToolTip": "Assets\\LiZhi\\Scripts\\Player\\PlayerRaycast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T20:32:21.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerRaycast.cs",
+              "DocumentMoniker": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Player\\PlayerRaycast.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerRaycast.cs",
+              "ToolTip": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Player\\PlayerRaycast.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerRaycast.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T20:19:55.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WalkState.cs",
+              "DocumentMoniker": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Player\\WalkState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\WalkState.cs",
+              "ToolTip": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Player\\WalkState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\WalkState.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T19:54:31.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaseState.cs",
+              "DocumentMoniker": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Player\\BaseState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\BaseState.cs",
+              "ToolTip": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Player\\BaseState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\BaseState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T19:54:07.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Torch.cs",
+              "DocumentMoniker": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Tools\\Torch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tools\\Torch.cs",
+              "ToolTip": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Tools\\Torch.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tools\\Torch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T19:53:11.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaseTool.cs",
+              "DocumentMoniker": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Tools\\BaseTool.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tools\\BaseTool.cs",
+              "ToolTip": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Tools\\BaseTool.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tools\\BaseTool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T19:47:05.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Outline.cs",
+              "DocumentMoniker": "E:\\UnityProject\\Split Fiction\\Assets\\QuickOutline\\Scripts\\Outline.cs",
+              "RelativeDocumentMoniker": "Assets\\QuickOutline\\Scripts\\Outline.cs",
+              "ToolTip": "E:\\UnityProject\\Split Fiction\\Assets\\QuickOutline\\Scripts\\Outline.cs",
+              "RelativeToolTip": "Assets\\QuickOutline\\Scripts\\Outline.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T18:27:46.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TextGetUpSth.cs",
+              "DocumentMoniker": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Player\\TextGetUpSth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\TextGetUpSth.cs",
+              "ToolTip": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Player\\TextGetUpSth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\TextGetUpSth.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T15:48:49.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DisslutionCenter1.cs",
+              "DocumentMoniker": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\DisslutionCenter1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DisslutionCenter1.cs",
+              "ToolTip": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\DisslutionCenter1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DisslutionCenter1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T14:11:49.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Mapchange.cs",
+              "DocumentMoniker": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Mapchange.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mapchange.cs",
+              "ToolTip": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\Mapchange.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mapchange.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T09:06:27.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DisslutionCenter.cs",
+              "DocumentMoniker": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\DisslutionCenter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DisslutionCenter.cs",
+              "ToolTip": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\DisslutionCenter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DisslutionCenter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T18:45:00.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CinemachineBrain.cs",
+              "DocumentMoniker": "E:\\UnityProject\\Split Fiction\\Library\\PackageCache\\com.unity.cinemachine@2.10.5\\Runtime\\Behaviours\\CinemachineBrain.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.cinemachine@2.10.5\\Runtime\\Behaviours\\CinemachineBrain.cs",
+              "ToolTip": "E:\\UnityProject\\Split Fiction\\Library\\PackageCache\\com.unity.cinemachine@2.10.5\\Runtime\\Behaviours\\CinemachineBrain.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.cinemachine@2.10.5\\Runtime\\Behaviours\\CinemachineBrain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T11:33:37.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WalkState.cs",
+              "DocumentMoniker": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\WalkState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WalkState.cs",
+              "ToolTip": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\WalkState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WalkState.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T10:38:36.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RunState.cs",
+              "DocumentMoniker": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\RunState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RunState.cs",
+              "ToolTip": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\RunState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RunState.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T10:38:34.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IdleState.cs",
+              "DocumentMoniker": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\IdleState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IdleState.cs",
+              "ToolTip": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\IdleState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IdleState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T10:38:26.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseState.cs",
+              "DocumentMoniker": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\BaseState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BaseState.cs",
+              "ToolTip": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\BaseState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BaseState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T10:36:32.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwCMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T10:34:24.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayerFsm.cs",
+              "DocumentMoniker": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\PlayerFsm.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerFsm.cs",
+              "ToolTip": "E:\\UnityProject\\Split Fiction\\Assets\\Scripts\\PlayerFsm.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerFsm.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T10:32:51.632Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
