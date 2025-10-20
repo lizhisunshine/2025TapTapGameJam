@@ -12,7 +12,6 @@ using System.Linq;
 using UnityEngine;
 
 //[ExecuteAlways]
-
 [DisallowMultipleComponent]
 
 public class Outline : MonoBehaviour {

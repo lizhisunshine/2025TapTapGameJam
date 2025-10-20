@@ -27,23 +27,6 @@ public class WalkState : BaseState
     {
         //进入了方法输出内容
         Debug.Log("行走状态");
-        //旋转逻辑
-        //if (Input.GetKey(KeyCode.W))
-        //{
-        //    paramator.playerTransform.rotation = Quaternion.Lerp(paramator.playerTransform.rotation, Quaternion.Euler(0, 180, 0), paramator.rotateSpeed * Time.deltaTime);
-        //}
-        //if (Input.GetKey(KeyCode.S))
-        //{
-        //    paramator.playerTransform.rotation = Quaternion.Lerp(paramator.playerTransform.rotation, Quaternion.Euler(0, 0, 0), paramator.rotateSpeed * Time.deltaTime);
-        //}
-        //if (Input.GetKey(KeyCode.A))
-        //{
-        //    paramator.playerTransform.rotation = Quaternion.Lerp(paramator.playerTransform.rotation, Quaternion.Euler(0, 90, 0), paramator.rotateSpeed * Time.deltaTime);
-        //}
-        //if (Input.GetKey(KeyCode.D))
-        //{
-        //    paramator.playerTransform.rotation = Quaternion.Lerp(paramator.playerTransform.rotation, Quaternion.Euler(0, 270, 0), paramator.rotateSpeed * Time.deltaTime);
-        //}
         
         //人物旋转逻辑
         rotateVec = Vector3.Cross(paramator.PlayerCamera.transform.right, Vector3.up);

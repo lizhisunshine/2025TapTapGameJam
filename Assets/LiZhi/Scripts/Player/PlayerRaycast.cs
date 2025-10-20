@@ -6,61 +6,84 @@ public class PlayerRaycast : MonoBehaviour
 {
     Ray r ;
     RaycastHit hitinfo;
-    public float RayLength;
-    [SerializeField]
-    private GameObject LastObj;
+    public float rayLength;
+    public GameObject player;
 
-    public bool isPickUp;
-    // Start is called before the first frame update
-    void Start()
+    //记录上一个检测到的物体，用于是否出现白边判定
+    [SerializeField] GameObject LastObj;
+
+    public void Start()
     {
-       isPickUp = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Update()
     {
+
         //申明射线并画出
         r = new Ray(transform.position, transform.forward);
-        Debug.DrawRay(transform.position, transform.forward*RayLength,Color.green);
-
-        if (!isPickUp)
+        Debug.DrawRay(transform.position, transform.forward * rayLength, Color.green);
+        if (Input.GetKeyDown(KeyCode.E)) 
         {
-            if (Physics.Raycast(r, out hitinfo, RayLength, 1 << LayerMask.NameToLayer("InteractiveObjects")))
+            if (Physics.Raycast(r, out hitinfo, rayLength, 1 << LayerMask.NameToLayer("Item")))
             {
-                print("碰撞物体，得到了信息");
-                print(hitinfo.collider.gameObject.name);
-                LastObj = hitinfo.collider.gameObject;
-                LastObj.GetComponent<Outline>().enabled = true;
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    isPickUp = true ;
-                }
+                Peal peal = hitinfo.collider.gameObject.GetComponent<Peal>();
+                ItemEffectBase ib = peal.ItemEffect;
+                //if (player.GetComponent<ItemManager>().itemEffect != null)
+                //{
+                //    player.GetComponent<ItemManager>().lastEffect = player.GetComponent<ItemManager>().itemEffect;
+                //}
+                //player.GetComponent<ItemManager>().itemEffect = ib;
+
+                //if (player.GetComponent<ItemManager>().itemEffect is PedestalEffext)
+                //{
+                //    if (player.GetComponent<ItemManager>().lastEffect is PickUpEffect && player.GetComponent<ItemManager>().item != null)
+                //    {
+                //        peal.useTool();
+                //    }
+                //}
+                //else
+                //{
+                //    peal.useTool();
+                //}
+
+                peal.useTool();
+
 
             }
-        }
-        else if (isPickUp)
-        {
-            //hitinfo.collider.gameObject.GetComponent<Outline>().enabled = true;
-            print(hitinfo.collider.gameObject.name + "开始工作");
-            LastObj.GetComponent<Outline>().enabled = false;
-            LastObj.GetComponent<BaseTool>().Work();
-            if (Input.GetKeyDown(KeyCode.E))
+            else if (player.GetComponent<ItemManager>().item != null)
             {
-                isPickUp = false;
+                player.GetComponent<ItemManager>().item.GetComponent<Peal>().useTool();
+                player.GetComponent<ItemManager>().item = null;
             }
         }
 
-        if (!Physics.Raycast(r, RayLength, 1 << LayerMask.NameToLayer("InteractiveObjects"))&&LastObj!=null)
-        { 
-            LastObj.GetComponent<Outline>().enabled = false;
-        }
-        if (Physics.Raycast(r, RayLength, 1 << LayerMask.NameToLayer("InteractiveObjects")) && LastObj != null)
+        //白边逻辑
+
+        if (Physics.Raycast(r, out hitinfo, rayLength, 1 << LayerMask.NameToLayer("Item")) && LastObj == null)
         {
-            if (hitinfo.collider.gameObject != LastObj) 
+            hitinfo.collider.GetComponent<Outline>().enabled = true;
+            LastObj = hitinfo.collider.gameObject;
+        }
+        else if (Physics.Raycast(r, rayLength, 1 << LayerMask.NameToLayer("Item")) && LastObj != null)
+        {
+            if (hitinfo.collider.gameObject != LastObj)
             {
                 LastObj.GetComponent<Outline>().enabled = false;
+                hitinfo.collider.GetComponent<Outline>().enabled = true;
+                LastObj = hitinfo.collider.gameObject;
+            }
+            else 
+            {
+                hitinfo.collider.GetComponent<Outline>().enabled = true;
             }
         }
+        else if (LastObj != null)
+        {
+            LastObj.GetComponent<Outline>().enabled = false;
+        }
+
+        
+
     }
+
 }

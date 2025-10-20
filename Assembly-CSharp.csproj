@@ -60,24 +60,40 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.55f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\LiZhi\Scripts\Tools\Rod.cs" />
     <Compile Include="Assets\LiZhi\Scripts\DisslutionCenter1.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Player\TextGetUpSth.cs" />
     <Compile Include="Assets\LiZhi\Scripts\DisslutionCenter.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Player\WalkState.cs" />
+    <Compile Include="Assets\LiZhi\Scripts\Tools\FrogEffect.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Player\BaseState.cs" />
+    <Compile Include="Assets\LiZhi\Scripts\Tools\MapRotate.cs" />
+    <Compile Include="Assets\LiZhi\Scripts\Tools\TowerEffect.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Tools\BaseTool.cs" />
+    <Compile Include="Assets\LiZhi\Scripts\FrogEffect1.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Player\PlayerFsm.cs" />
     <Compile Include="Assets\Fleecebell\Scripts\Toad.cs" />
     <Compile Include="Assets\Fleecebell\Scripts\PlayerAni.cs" />
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
+    <Compile Include="Assets\LiZhi\Scripts\Tools\PickUpEffect.cs" />
+    <Compile Include="Assets\LiZhi\Scripts\Tools\IItemEffect.cs" />
     <Compile Include="Assets\LiZhi\Scripts\TextRaycast.cs" />
+    <Compile Include="Assets\LiZhi\Scripts\Tools\OldScripts\BaseTool.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Player\IdleState.cs" />
+    <Compile Include="Assets\LiZhi\Scripts\Tools\ItemEffectBase.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Tools\Torch.cs" />
+    <Compile Include="Assets\LiZhi\Scripts\Tools\PedestalEffect.cs" />
+    <Compile Include="Assets\LiZhi\Scripts\Tools\OpenEffect.cs" />
+    <Compile Include="Assets\LiZhi\Scripts\Player\ItemManager.cs" />
+    <Compile Include="Assets\LiZhi\Scripts\Tools\Peal.cs" />
+    <Compile Include="Assets\LiZhi\Scripts\Tools\MapRotateEffect.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Player\PlayerRaycast.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Mapchange.cs" />
     <Compile Include="Assets\Fleecebell\Scripts\Insect.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Player\RunState.cs" />
+    <Compile Include="Assets\LiZhi\Scripts\Tools\OldScripts\Torch.cs" />
+    <Compile Include="Assets\LiZhi\Scripts\Tools\Frog.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\QuickOutline\Resources\Shaders\OutlineMask.shader" />
