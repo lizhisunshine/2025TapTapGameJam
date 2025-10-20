@@ -12,19 +12,30 @@ public class DisslutionCenter1 : MonoBehaviour
 
     public Material material1;
     public Material material2;
-    // Start is called before the first frame update
+
+    public Material[] materials1;
+    public Material[] materials2;
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-        if (target&&material1)
+        if (target && materials1.Length > 0 && materials2.Length > 0)
         {
             material1.SetVector("_Center", target.position);
             material2.SetVector("_Center", target.position);
+            for (int i = 0; i < materials1.Length; i++)
+            {
+                materials1[i].SetVector("_Center", target.position);
+            }
+            for (int i = 0; i < materials2.Length; i++)
+            {
+                materials2[i].SetVector("_Center", target.position);
+            }
         }
     }
 }

@@ -5,9 +5,10 @@ using UnityEngine;
 public class Torch : BaseTool
 {
     public GameObject Player;
+    public GameObject Player_hands;
     public override void Work()
     {
-        this.transform.position = Player.transform.position + Vector3.up * 3; 
+        this.transform.position = Player_hands.transform.position; 
     }
 
 }
