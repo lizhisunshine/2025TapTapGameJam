@@ -27,6 +27,21 @@ public class ItemManager : MonoBehaviour
     public ItemEffectBase itemEffect;
     public ItemEffectBase lastEffect;
 
+    //存储当前标记的篝火
+    public GameObject Fire;
+    //存储当前关卡能使用夜明珠的次数 这个次数是由当前关卡对应的篝火所决定的
+    public int nowLevelNum;
+
+    //存储玩家当前身上的钥匙
+    public List<GameObject> Keys;
+    //存储当前使用的门
+
+    //存储所有的青蛙 判断青蛙动画状态
+    public bool isHadPick;
+    public List <Animator> FrogAnimations;
+
+    //存储当前点燃的灯笼数量
+    public int LightUpNum;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,10 +55,42 @@ public class ItemManager : MonoBehaviour
         {
             item.transform.position = user.transform.position+Vector3.up*deltaDistance;
         }
+        //用于测试篝火是否生效的方法
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            isDead = true;
+        }
         if (isDead)
         {
+            transform.position = Fire.transform.position+Vector3.forward*2;
+            isDead = false;
         }
-    }
+        //根据玩家当前是否取出夜明珠 判断当前青蛙动画状态
+        if (isHadPick)
+        {
+            for (int i = 0; i < FrogAnimations.Count; i++)
+            {
+                FrogAnimations[i].SetBool("isOpen", true);
+                FrogAnimations[i].SetBool("isClose", false);
 
+            }
+        }
+        else 
+        {
+            for (int i = 0; i < FrogAnimations.Count; i++)
+            {
+                FrogAnimations[i].SetBool("isOpen", false);
+                FrogAnimations[i].SetBool("isClose", true);
+
+            }
+        }
+        //当玩家没有了使用蟾蜍的机会，让玩家死亡并且重置当前次数
+        if (gitNum==0)
+        {
+            isDead=true;
+            gitNum = nowLevelNum;
+        }
+            
+    }
 
 }

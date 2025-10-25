@@ -16,11 +16,21 @@ public class MapRotate : MonoBehaviour
     {
         if (isRotate == true)
         {
-            mapObj.transform.eulerAngles += new Vector3(0f,Mathf.Lerp(mapObj.transform.eulerAngles.y, targetRotate, Time.deltaTime ),0f);
-            if (transform.rotation.y >= targetRotate)
-            { 
+            //mapObj.transform.eulerAngles = new Vector3(0f,Mathf.Lerp(mapObj.transform.eulerAngles.y, targetRotate, Time.deltaTime*speed ),0f);
+            Quaternion targetRotation = Quaternion.Euler(0f, targetRotate, 0f);
+            mapObj.transform.rotation = Quaternion.RotateTowards(mapObj.transform.rotation, targetRotation, speed * Time.deltaTime);
+            //if (mapObj.transform.eulerAngles.y >= targetRotate)
+            //{
+
+            //    isRotate = false;
+            //}
+            targetRotation = Quaternion.Euler(0f, targetRotate, 0f);
+            if (Quaternion.Angle(mapObj.transform.rotation, targetRotation) <= 1f)
+            {
                 isRotate = false;
+                mapObj.transform.rotation = targetRotation;
             }
+
         }
     }
 }

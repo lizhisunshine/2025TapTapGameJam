@@ -12,6 +12,9 @@ public class WalkState : BaseState
     //用来计算旋转的vector
     public Vector3 rotateVec = new Vector3();
 
+
+    private Vector3 lastValidDirection = Vector3.forward;
+
     public WalkState(PlayerFsm f) 
     {
         paramator = f.paramator as PlayerParamator;
@@ -20,6 +23,7 @@ public class WalkState : BaseState
 
     public override void OnEnter()
     {
+        paramator.walkMusic.Play();
 
     }
 
@@ -29,13 +33,25 @@ public class WalkState : BaseState
         Debug.Log("行走状态");
         
         //人物旋转逻辑
+        //rotateVec = Vector3.Cross(paramator.PlayerCamera.transform.right, Vector3.up);
+        //Vector3 targetDir = paramator.PlayerCamera.transform.right * Input.GetAxisRaw("Horizontal") + rotateVec * Input.GetAxisRaw("Vertical");
+        //Quaternion targetRotation = Quaternion.LookRotation(targetDir, Vector3.up);
+        //paramator.playerTransform.rotation = Quaternion.Lerp(paramator.playerTransform.rotation, targetRotation, paramator.rotateSpeed * Time.deltaTime);
+
+        
+        // 修改后的旋转逻辑
         rotateVec = Vector3.Cross(paramator.PlayerCamera.transform.right, Vector3.up);
         Vector3 targetDir = paramator.PlayerCamera.transform.right * Input.GetAxisRaw("Horizontal") + rotateVec * Input.GetAxisRaw("Vertical");
-        Quaternion targetRotation = Quaternion.LookRotation(targetDir, Vector3.up);
+        // 如果有输入，更新记忆的方向
+        if (targetDir.sqrMagnitude > 0.01f)
+        {
+        lastValidDirection = targetDir;
+        }
+        // 使用记忆的方向进行旋转（即使当前没有输入）
+        Quaternion targetRotation = Quaternion.LookRotation(lastValidDirection, Vector3.up);
         paramator.playerTransform.rotation = Quaternion.Lerp(paramator.playerTransform.rotation, targetRotation, paramator.rotateSpeed * Time.deltaTime);
-        
-    
-        
+
+
         //移动逻辑
         paramator.rb.velocity = targetDir*paramator.moveSpeed;
 
@@ -54,6 +70,6 @@ public class WalkState : BaseState
 
     public override void OnExit()
     {
-
+        paramator.walkMusic.Stop();
     }
 }

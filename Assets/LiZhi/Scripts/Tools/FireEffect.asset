@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43212ebc219d4d544a469dbceccc7681, type: 3}
+  m_Name: FireEffect
+  m_EditorClassIdentifier: 
+  effectName: "\u7BDD\u706B\u6548\u679C"
+  effectDescription: "\u5F53\u73A9\u5BB6\u6B7B\u4EA1\u65F6\uFF0C\u4F1A\u5728\u6700\u540E\u4E00\u6B21\u8BB0\u5F55\u7684\u7BDD\u706B\u524D\u590D\u6D3B\n\u7BDD\u706B\u88AB\u70B9\u71C3\uFF0C\u7BDD\u706B\u6240\u5BF9\u5E94\u7684\u95E8\u4E5F\u4F1A\u88AB\u5F00\u542F\uFF0C\u5176\u5B83\u7684\u95E8\u4E5F\u4F1A\u5173\u95ED\n\u4F7F\u7528\u7BDD\u706B\u9700\u8981\u5728peal\u811A\u672C\u4E2D\u6CE8\u518C\u7BDD\u706B\u5BF9\u5E94\u5173\u5361\u7684\u591C\u660E\u73E0\u9500\u6BC1\u6B21\u6570\uFF0C\u4EE5\u65B9\u4FBF\u5173\u5361\u91CD\u7F6E"
+  effectSound: {fileID: 8300000, guid: b77e288b5c9bd6943b9797dfdabf607c, type: 3}
+  LastFire: {fileID: 0}
+  LastDoor: {fileID: 0}

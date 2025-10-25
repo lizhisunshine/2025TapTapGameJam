@@ -8,7 +8,7 @@ public class PedestalEffext : ItemEffectBase
 {
     public override bool Execute(GameObject user, GameObject obj)
     {
-        Debug.Log(user.name + "使用了道具3！");
+        Debug.Log(user.name + "使用了底座！");
         if (user.GetComponent<ItemManager>().isPickSTH)
         {
             user.GetComponent<ItemManager>().item.transform.position = obj.transform.position + Vector3.up * 2;

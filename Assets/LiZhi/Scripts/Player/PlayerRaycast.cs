@@ -9,6 +9,8 @@ public class PlayerRaycast : MonoBehaviour
     public float rayLength;
     public GameObject player;
 
+    //射线发射点的水平偏移量
+    public Vector3 rayOffest;
     //记录上一个检测到的物体，用于是否出现白边判定
     [SerializeField] GameObject LastObj;
 
@@ -20,8 +22,8 @@ public class PlayerRaycast : MonoBehaviour
     {
 
         //申明射线并画出
-        r = new Ray(transform.position, transform.forward);
-        Debug.DrawRay(transform.position, transform.forward * rayLength, Color.green);
+        r = new Ray(transform.position+rayOffest, transform.forward);
+        Debug.DrawRay(transform.position + rayOffest, transform.forward * rayLength, Color.green);
         if (Input.GetKeyDown(KeyCode.E)) 
         {
             if (Physics.Raycast(r, out hitinfo, rayLength, 1 << LayerMask.NameToLayer("Item")))

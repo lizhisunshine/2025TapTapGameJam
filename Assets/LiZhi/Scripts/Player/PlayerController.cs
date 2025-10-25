@@ -10,7 +10,7 @@ public class PlayerParamator:FsmParamator
     public float moveSpeed;
     public float rotateSpeed;
     public float runSpeed;
-
+    public AudioSource walkMusic;
 
     //ÆäËü
     public Camera PlayerCamera;
