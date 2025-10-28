@@ -9,10 +9,13 @@ public class FireEffect : ItemEffectBase
 
     [SerializeField] private GameObject LastDoor;
 
+    //地图ui
+    public GameObject MapUI;
 
     public void OnEnable()
     {
         LastFire = LastDoor = null;
+        MapUI = GameObject.Find("MapImage");
     }
     public override bool Execute(GameObject user, GameObject obj)
     {
@@ -33,6 +36,13 @@ public class FireEffect : ItemEffectBase
             if (effectSound != null && obj.GetComponent<AudioSource>() != null) 
             { obj.GetComponent<AudioSource>().PlayOneShot(effectSound); }
             //obj.GetComponent<AudioSource>().PlayOneShot(effectSound);
+
+            //更新ui地图的方法
+            MapUI.GetComponent<MapImage>().InsideMapImage = obj.GetComponent<Peal>().levelInsideMap;
+            MapUI.GetComponent<MapImage>().InsideMapImage.SetActive(false);
+            MapUI.GetComponent<MapImage>().SurfaceMapImage = obj.GetComponent<Peal>().levelSurfaceMap;
+            MapUI.GetComponent<MapImage>().InsideMapImage.SetActive(true);
+
         }
         if (LastFire != null)
         {
@@ -55,6 +65,12 @@ public class FireEffect : ItemEffectBase
                 //播放音效方法
                 if (effectSound != null && obj.GetComponent<AudioSource>() != null)
                 { obj.GetComponent<AudioSource>().PlayOneShot(effectSound); }
+
+                //更新ui地图的方法
+                MapUI.GetComponent<MapImage>().InsideMapImage = obj.GetComponent<Peal>().levelInsideMap;
+                MapUI.GetComponent<MapImage>().InsideMapImage.SetActive(false);
+                MapUI.GetComponent<MapImage>().SurfaceMapImage = obj.GetComponent<Peal>().levelSurfaceMap;
+                MapUI.GetComponent<MapImage>().InsideMapImage.SetActive(true);
             }
         }
         

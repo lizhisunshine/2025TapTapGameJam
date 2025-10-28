@@ -33,10 +33,15 @@ public class DialogSystem:MonoBehaviour
     public bool isPlayerTalk;//是否玩家说话
     public bool isStart;//打字机启动标记
 
+    [Header("聊天最大距离")]
+    public float maxDistance;
+    //public GameObject lastAnimal; 
+
     public void Start()
     {
+        //maxDistance = 10;
         //isStart = true;
-        PlayerName = "主角";
+        PlayerName = "艾可";
         ObjName = "小动物";
         contant = "你怎么才找到我啊我等你半天了你mlb的你怎么才找到我啊我等你半天了你mlb的";
         isPlayerTalk = false;
@@ -50,7 +55,9 @@ public class DialogSystem:MonoBehaviour
         {
             TalkOver();
         }
-        
+
+        //|| Vector3.Distance(player.transform.transform.position, lastAnimal.transform.position) >= maxDistance
+
         //if (Input.GetKeyDown(KeyCode.O))
         //{
         //下面是从外部调用这个脚本方法需要传入的标准内容表。

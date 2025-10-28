@@ -13,7 +13,10 @@ public class DisslutionCenter1 : MonoBehaviour
 
     public Material material1;
     public Material material2;
-    
+
+    public Material[] material1_;
+    public Material[] material2_;
+
     public float normalDistance;
     //ÅÐ¶ÏÀ©É¢
     public bool isDiffusion = false;
@@ -25,30 +28,46 @@ public class DisslutionCenter1 : MonoBehaviour
     public float Speed;
     // Start is clled before the first frame update
     void Start()
-    { 
+    {
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (target&&material1&&material2)
+        if (target && material1 && material2 && material1_.Length > 0 && material2_.Length > 0)
         {
             material1.SetVector("_Center", target.position);
             material2.SetVector("_Center", target.position);
+            for (int i = 0; i < material1_.Length; i++)
+            {
+                material1_[i].SetVector("_Center", target.position);
+            }
+            for (int i = 0; i < material2_.Length; i++)
+            {
+                material2_[i].SetVector("_Center", target.position);
+            }
 
         }
         material2.SetFloat("_Distance", distance);
         material1.SetFloat("_Distance", distance);
+        for (int i = 0; i < material1_.Length; i++)
+        {
+            material1_[i].SetFloat("_Distance", distance);
+        }
+        for (int i = 0; i < material2_.Length; i++)
+        {
+            material2_[i].SetFloat("_Distance", distance);
+        }
 
         if (isShrink)
         {
-            distance = Mathf.Lerp(distance, minDistance, Time.deltaTime*Speed);
+            distance = Mathf.Lerp(distance, minDistance, Time.deltaTime * Speed);
         }
         else if (isDiffusion)
         {
             distance = Mathf.Lerp(distance, maxDistance, Time.deltaTime * Speed);
         }
-        else 
+        else
         {
             distance = Mathf.Lerp(distance, normalDistance, Time.deltaTime * Speed);
         }

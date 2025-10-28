@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class PlayerRaycast : MonoBehaviour
 {
@@ -55,7 +56,15 @@ public class PlayerRaycast : MonoBehaviour
             else if (player.GetComponent<ItemManager>().item != null)
             {
                 player.GetComponent<ItemManager>().item.GetComponent<Peal>().useTool();
+
+                //断绝该物体和玩家的父子关系
+                player.GetComponent<ItemManager>().item.transform.SetParent(null);
+                //恢复item的collider
+                player.GetComponent<ItemManager>().item.GetComponent<Collider>().enabled = true;
+                player.GetComponent<ItemManager>().item.GetComponent<Rigidbody>().isKinematic = false;
+                player.GetComponent<ItemManager>().item.GetComponent<Rigidbody>().useGravity = true;
                 player.GetComponent<ItemManager>().item = null;
+
             }
         }
 

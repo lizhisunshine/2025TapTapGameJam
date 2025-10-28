@@ -499,6 +499,12 @@ MonoBehaviour:
   Key: {fileID: 0}
   door: {fileID: 0}
   LevelNum: 0
+  levelInsideMap: {fileID: 0}
+  levelSurfaceMap: {fileID: 0}
+  isOn: 0
+  Animal: {fileID: 0}
+  NeedsNum: 0
+  talkNum: 0
 --- !u!114 &2750057372850188178
 MonoBehaviour:
   m_ObjectHideFlags: 0

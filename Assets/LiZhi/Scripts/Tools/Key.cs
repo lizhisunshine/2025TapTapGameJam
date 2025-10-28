@@ -35,6 +35,10 @@ public class Key : MonoBehaviour
             transform.position = Vector3.Lerp(transform.position, player.transform.position + OffestVector, Time.deltaTime * speed);
 
             //让物体存储在道具管理器脚本里的方法
+            if (player.GetComponent<ItemManager>().Keys.Exists(t => t == gameObject))
+            { 
+                return;
+            }
             player.GetComponent<ItemManager>().Keys.Add(gameObject);
         }
         else 
@@ -50,8 +54,9 @@ public class Key : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
-        { 
+        if (other.CompareTag("PlayerFather"))
+        {
+            Debug.Log("完成玩家绑定");
             isFollow = true;
             player = other.gameObject;
         }

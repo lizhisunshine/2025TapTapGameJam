@@ -15,3 +15,4 @@ MonoBehaviour:
   effectName: "\u6548\u679C"
   effectDescription: "\u6548\u679C\u63CF\u8FF0"
   effectSound: {fileID: 0}
+  dialogManager: {fileID: 0}

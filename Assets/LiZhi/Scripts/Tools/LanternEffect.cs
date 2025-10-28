@@ -20,6 +20,11 @@ public class LanternEffect : ItemEffectBase
 
             //ÐÞ¸Äµ±Ç°µÆÁý×´Ì¬
             obj.GetComponent<Light>().enabled = true;
+
+            if (obj.GetComponent<Peal>().Animal != null)
+            {
+                obj.GetComponent<Peal>().Animal.SetActive(true);
+            }
         }
 
         return true;

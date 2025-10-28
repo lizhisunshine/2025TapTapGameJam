@@ -45,6 +45,10 @@ public class FrogEffext : ItemEffectBase
             GameObject instance = (GameObject)Instantiate(obj.GetComponent<Peal>().prefab);
             user.GetComponent<ItemManager>().item = instance;
             GameObject.Find("CenterPointController").GetComponent<DisslutionCenter1>().target = instance.transform;
+
+            //重置计算玩家和夜明珠距离使用的夜明珠位置
+            user.GetComponent<BLCollider>().ball = instance.transform;
+
             GameObject.Find("CenterPointController").GetComponent<DisslutionCenter1>().isShrink = false;
             user.GetComponent<ItemManager>().isPickSTH = true;
 

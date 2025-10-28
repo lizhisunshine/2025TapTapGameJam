@@ -24,9 +24,13 @@ public class Peal : MonoBehaviour
     /// 储存每个篝火对应关卡的夜明珠销毁次数
     /// </summary>
     public int LevelNum;
+    public GameObject levelInsideMap;//关卡对应的地图
+    public GameObject levelSurfaceMap;//关卡对应的地图
+
     [Header("针对 灯笼 等")]
     //判断当前灯笼是否被点亮
     public bool isOn;
+    public GameObject Animal;//每个灯笼对应唯一的动物朋友
 
     [Header("针对 告示牌 等")]
     public int NeedsNum;

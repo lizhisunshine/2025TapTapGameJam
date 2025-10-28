@@ -18,7 +18,8 @@ public class MapRotateEffect : ItemEffectBase
             }
         if (!obj.GetComponent<MapRotate>().isRotate)
         {
-            obj.GetComponent<MapRotate>().targetRotate = obj.GetComponent<MapRotate>().mapObj.transform.eulerAngles.y+90;
+            obj.GetComponent<MapRotate>().targetRotate = obj.GetComponent<MapRotate>().mapObjInside.transform.eulerAngles.y+90;
+            //obj.GetComponent<MapRotate>().targetRotate = obj.GetComponent<MapRotate>().mapObjSurface.transform.eulerAngles.y+90;
 
         }
         obj.GetComponent<MapRotate>().isRotate = true;
