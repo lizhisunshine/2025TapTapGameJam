@@ -21,7 +21,7 @@ public class FrogInfoUI : MonoBehaviour
         {
             FrogImageList[i].gameObject.SetActive(false);
         }
-        FrogImageList[FrogNum-1].SetActive(true);
+        FrogImageList[FrogNum].SetActive(true);
 
 
     }

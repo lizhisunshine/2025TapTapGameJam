@@ -36,7 +36,7 @@ public class FrogEffext : ItemEffectBase
 
             return true;
         }
-        else if (!user.GetComponent<ItemManager>().isPickSTH&&!isHadPick)
+        else if (!user.GetComponent<ItemManager>().isPickSTH&&!isHadPick && user.GetComponent<ItemManager>().gitNum > 0)
         {
             Debug.Log(user.name + "正在生成预制体");
             //user.GetComponent<ItemManager>().item = obj.GetComponent<Peal>().item;

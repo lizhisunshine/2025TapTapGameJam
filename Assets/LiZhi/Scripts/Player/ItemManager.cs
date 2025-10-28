@@ -81,7 +81,9 @@ public class ItemManager : MonoBehaviour
         }
         if (isDead)
         {
-            transform.position = Fire.transform.position+new Vector3(0,2,2);
+            gitNum = nowLevelNum;
+
+            transform.position = Fire.transform.position+new Vector3(0,0.9f,2);
             isDead = false;
         }
         //根据玩家当前是否取出夜明珠 判断当前青蛙动画状态
@@ -104,11 +106,11 @@ public class ItemManager : MonoBehaviour
             }
         }
         //当玩家没有了使用蟾蜍的机会，让玩家死亡并且重置当前次数
-        if (gitNum==0)
-        {
-            isDead=true;
-            gitNum = nowLevelNum;
-        }
+        //if (gitNum==0)
+        //{
+        //    isDead=true;
+        //    //gitNum = nowLevelNum;
+        //}
         //当玩家和上一次对话的动物的距离超出最大距离 结束对话
         if (LastAnimal != null)
         {
