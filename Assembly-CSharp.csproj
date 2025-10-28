@@ -79,10 +79,8 @@
     <Compile Include="Assets\LiZhi\Scripts\Tools\PickUpEffect.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Tools\IItemEffect.cs" />
     <Compile Include="Assets\LiZhi\Scripts\TextRaycast.cs" />
-    <Compile Include="Assets\LiZhi\Scripts\Tools\OldScripts\BaseTool.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Player\IdleState.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Tools\ItemEffectBase.cs" />
-    <Compile Include="Assets\LiZhi\Scripts\Tools\Torch.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Tools\PedestalEffect.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Tools\OpenEffect.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Player\ItemManager.cs" />
@@ -90,6 +88,7 @@
     <Compile Include="Assets\LiZhi\Scripts\Tools\MapRotateEffect.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Player\PlayerRaycast.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Mapchange.cs" />
+    <Compile Include="Assets\Fleecebell\Scripts\BLCollider.cs" />
     <Compile Include="Assets\Fleecebell\Scripts\Insect.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Player\RunState.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Tools\OldScripts\Torch.cs" />

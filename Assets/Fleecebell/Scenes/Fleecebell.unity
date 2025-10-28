@@ -1478,7 +1478,7 @@ Transform:
   m_GameObject: {fileID: 492213729}
   serializedVersion: 2
   m_LocalRotation: {x: 0.38381183, y: 0, z: 0, w: 0.92341137}
-  m_LocalPosition: {x: -1.4999995, y: 10.688325, z: -58.97377}
+  m_LocalPosition: {x: -1.4999998, y: 10.688325, z: -58.97377}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1778,8 +1778,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8609750747125604b8a5ce7e0aeeb044, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 920404130}
-  Player_hands: {fileID: 506756644}
 --- !u!54 &572009487
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2364,7 +2362,6 @@ GameObject:
   - component: {fileID: 770441699}
   - component: {fileID: 770441698}
   - component: {fileID: 770441697}
-  - component: {fileID: 770441696}
   m_Layer: 7
   m_Name: Torch
   m_TagString: Untagged
@@ -2372,20 +2369,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &770441696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 770441695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8609750747125604b8a5ce7e0aeeb044, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 920404130}
-  Player_hands: {fileID: 506756644}
 --- !u!114 &770441697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3293,9 +3276,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fe19a3fe59b1974ea7b4464b37f8434, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RayLength: 4
+  rayLength: 0
+  player: {fileID: 0}
   LastObj: {fileID: 0}
-  isPickUp: 0
 --- !u!114 &920404132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3493,25 +3476,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 770441702}
+  distance: 0
   material1: {fileID: 2100000, guid: dd1a30062fb080944b39f37a6e42e9c4, type: 2}
   material2: {fileID: 2100000, guid: d7ca11aac3d9efd42bd433463ea2bfea, type: 2}
-  materials1:
-  - {fileID: 2100000, guid: 725bdfa931849b74fa8040cf5522b513, type: 2}
-  - {fileID: 2100000, guid: 277b833f2d0b82544b1d0e7262672e00, type: 2}
-  - {fileID: 2100000, guid: 8ff154e8607b7734d81a069453c55136, type: 2}
-  - {fileID: 2100000, guid: 8649b807dad7a8c419f4b18a523157e3, type: 2}
-  - {fileID: 2100000, guid: b0042eb8f6345974c9169fb1cd9c8684, type: 2}
-  - {fileID: 2100000, guid: b21afe72e791d3d40a3b4f5b18344128, type: 2}
-  - {fileID: 2100000, guid: 05b7658ffd506c247ae545c8f6754e40, type: 2}
-  materials2:
-  - {fileID: 2100000, guid: 47fe8275d9b7772488225a5567b214a8, type: 2}
-  - {fileID: 2100000, guid: 7e66d245bfab6e6448dbe78943a13597, type: 2}
-  - {fileID: 2100000, guid: 5dcbde451550f45419b5fc06bf85665b, type: 2}
-  - {fileID: 2100000, guid: 4dcde539b7a8f5a4d80122828bef9949, type: 2}
-  - {fileID: 2100000, guid: 0756a79e159f15244a76978d386ba3f2, type: 2}
-  - {fileID: 2100000, guid: cff141b563080af4491f72a9f05c58b7, type: 2}
-  - {fileID: 2100000, guid: ad03c08d459d92e49a767589b631cb1a, type: 2}
-  - {fileID: 2100000, guid: a797d242c7f5e524590d7b25f895ba0e, type: 2}
+  material1_: []
+  material2_: []
+  normalDistance: 0
+  isDiffusion: 0
+  maxDistance: 0
+  isShrink: 0
+  minDistance: 0
+  Speed: 0
 --- !u!4 &940774108
 Transform:
   m_ObjectHideFlags: 0
@@ -4912,7 +4887,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d25e11da667c5c408d4a52605da4122, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.59
+      value: -10.63
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d25e11da667c5c408d4a52605da4122, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4920,7 +4895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d25e11da667c5c408d4a52605da4122, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -47.313
+      value: -47.33
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d25e11da667c5c408d4a52605da4122, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6153,8 +6128,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8609750747125604b8a5ce7e0aeeb044, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 920404130}
-  Player_hands: {fileID: 506756644}
 --- !u!114 &1668558261
 MonoBehaviour:
   m_ObjectHideFlags: 0

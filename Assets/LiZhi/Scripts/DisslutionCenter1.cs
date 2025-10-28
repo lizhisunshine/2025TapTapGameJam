@@ -13,7 +13,10 @@ public class DisslutionCenter1 : MonoBehaviour
 
     public Material material1;
     public Material material2;
-    
+
+    public Material[] material1_;
+    public Material[] material2_;
+
     public float normalDistance;
     //ÅÐ¶ÏÀ©É¢
     public bool isDiffusion = false;
@@ -31,14 +34,30 @@ public class DisslutionCenter1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (target&&material1&&material2)
+        if (target&&material1&&material2 && material1_.Length > 0 && material2_.Length > 0)
         {
             material1.SetVector("_Center", target.position);
             material2.SetVector("_Center", target.position);
+            for (int i = 0; i < material1_.Length; i++)
+            {
+                material1_[i].SetVector("_Center", target.position);
+            }
+            for (int i = 0; i < material2_.Length; i++)
+            {
+                material2_[i].SetVector("_Center", target.position);
+            }
 
         }
         material2.SetFloat("_Distance", distance);
         material1.SetFloat("_Distance", distance);
+        for (int i = 0; i < material1_.Length; i++)
+        {
+            material1_[i].SetFloat("_Distance", distance);
+        }
+        for (int i = 0; i < material2_.Length; i++)
+        {
+            material2_[i].SetFloat("_Distance", distance);
+        }
 
         if (isShrink)
         {
