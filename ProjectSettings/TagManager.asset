@@ -8,6 +8,8 @@ TagManager:
   - BCollider
   - QCollider
   - PlayerFather
+  - hands
+  - Target
   layers:
   - Default
   - TransparentFX

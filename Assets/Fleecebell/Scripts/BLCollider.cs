@@ -163,7 +163,7 @@ public class BLCollider : MonoBehaviour
     {
         if (PlayerDis >= R && !BCollider && !LCollider)
         {
-            Debug.Log("1");
+            //Debug.Log("1");
             foreach (Collider col in BiaoCollider)
             {
                 col.isTrigger = false;
@@ -175,7 +175,7 @@ public class BLCollider : MonoBehaviour
         }
         else if (PlayerDis >= R && !BCollider && LCollider)
         {
-            Debug.Log("2");
+            //Debug.Log("2");
             foreach (Collider col in BiaoCollider)
             {
                 col.isTrigger = false;
@@ -191,7 +191,7 @@ public class BLCollider : MonoBehaviour
         }
         if (PlayerDis < R && !BCollider && !LCollider)
         {
-            Debug.Log("3");
+            //Debug.Log("3");
             foreach (Collider col in BiaoCollider)
             {
                 col.isTrigger = true;
@@ -203,7 +203,7 @@ public class BLCollider : MonoBehaviour
         }
         else if (PlayerDis <= R && BCollider && !LCollider)
         {
-            Debug.Log("4");
+            //Debug.Log("4");
             foreach (Collider col in BiaoCollider)
             {
                 col.isTrigger = true;

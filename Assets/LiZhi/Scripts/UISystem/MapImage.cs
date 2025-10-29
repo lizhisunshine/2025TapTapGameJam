@@ -42,7 +42,11 @@ public class MapImage : MonoBehaviour
         }
         else 
         {
-            this.gameObject.SetActive(false);
+            //this.gameObject.SetActive(false);
+            if (Input.GetKeyDown(KeyCode.Q)) 
+            {
+                Debug.Log("目前没有地图！");
+            }
         }
     }
 }

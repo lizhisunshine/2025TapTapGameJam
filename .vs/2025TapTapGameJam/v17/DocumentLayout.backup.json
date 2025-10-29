@@ -3,8 +3,92 @@
   "WorkspaceRootPath": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\fireeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\fireeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\uisystem\\mapimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\uisystem\\mapimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\peal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\peal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\endtigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\endtigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|e:\\unityproject\\documents github\\2025taptapgamejam\\assets\\lizhi\\scripts\\bgmmaneger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\bgmmaneger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\player\\itemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\player\\itemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|e:\\unityproject\\documents github\\2025taptapgamejam\\assets\\lizhi\\scripts\\uisystem\\endscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\uisystem\\endscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\fleecebell\\scripts\\insect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\fleecebell\\scripts\\insect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\fleecebell\\scripts\\blcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\fleecebell\\scripts\\blcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\player\\walkstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\player\\walkstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\uisystem\\playerinfoui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\uisystem\\playerinfoui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\uisystem\\sittingbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\uisystem\\sittingbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\uisystem\\startbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\uisystem\\startbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\uisystem\\froginfoui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\uisystem\\froginfoui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\player\\basestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\player\\basestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\player\\runstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\player\\runstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\centerreseter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\centerreseter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\dialogsystem\\dialogsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\dialogsystem\\dialogsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\dialogsystem\\animalsbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\dialogsystem\\animalsbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\dialogsystem\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\dialogsystem\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\torch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\torch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\dialogsystem\\animals3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,18 +103,6 @@
       "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\dialogsystem\\animals1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\dialogsystem\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\dialogsystem\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\dialogsystem\\animalsbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\dialogsystem\\animalsbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\dialogsystem\\dialogsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\dialogsystem\\dialogsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\dialogsystem\\animals6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\dialogsystem\\animals6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,14 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\dialogsystem\\animals4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\dialogsystem\\animals4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|e:\\unityproject\\documents github\\2025taptapgamejam\\assets\\lizhi\\scripts\\player\\runstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\player\\runstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\player\\walkstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\player\\walkstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\frogeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,14 +127,6 @@
       "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\player\\playerraycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\centerreseter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\centerreseter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\fleecebell\\scripts\\blcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\fleecebell\\scripts\\blcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -83,44 +139,12 @@
       "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\fleecebell\\scripts\\toad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\player\\basestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\player\\basestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\itemeffectbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\itemeffectbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\uisystem\\replaybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\uisystem\\replaybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\uisystem\\froginfoui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\uisystem\\froginfoui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\peal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\peal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\fireeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\fireeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\player\\itemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\player\\itemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\endtigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\endtigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\uisystem\\endscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\uisystem\\endscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\maprotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -131,24 +155,8 @@
       "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\maprotateeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\uisystem\\playerinfoui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\uisystem\\playerinfoui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\player\\playerfsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\player\\playerfsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\uisystem\\mapimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\uisystem\\mapimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\uisystem\\sittingbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\uisystem\\sittingbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\uisystem\\startbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\uisystem\\startbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\lanterneffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -181,10 +189,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\oldscripts\\basetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\oldscripts\\basetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\assets\\lizhi\\scripts\\tools\\torch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A785740-32C3-2119-D180-7CBA3BECB30E}|Assembly-CSharp.csproj|solutionrelative:assets\\lizhi\\scripts\\tools\\torch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -194,24 +198,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 38,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "BgmManeger.cs",
+              "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\BgmManeger.cs",
+              "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\BgmManeger.cs",
+              "ToolTip": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\BgmManeger.cs",
+              "RelativeToolTip": "Assets\\LiZhi\\Scripts\\BgmManeger.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T09:45:53.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Animals.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals.cs",
               "ToolTip": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals.cs",
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwCEAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T04:13:18.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T04:13:18.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 24,
               "Title": "Animals1.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals1.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals1.cs",
@@ -219,12 +235,11 @@
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals1.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAIwEIAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T04:11:44.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T04:11:44.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 23,
               "Title": "Animals2.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals2.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals2.cs",
@@ -232,12 +247,11 @@
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals2.cs",
               "ViewState": "AgIAACQAAAAAAAAAAADwvzAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:32:51.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:32:51.257Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 22,
               "Title": "Animals3.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals3.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals3.cs",
@@ -245,12 +259,11 @@
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals3.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAgwAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:32:52.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:32:52.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 27,
               "Title": "Animals4.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals4.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals4.cs",
@@ -258,12 +271,11 @@
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals4.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAwwDUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:32:53.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:32:53.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 26,
               "Title": "Animals5.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals5.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals5.cs",
@@ -271,12 +283,11 @@
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals5.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAwwC0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:32:54.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:32:54.332Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 25,
               "Title": "Animals6.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals6.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals6.cs",
@@ -284,12 +295,11 @@
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\Animals6.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:32:55.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:32:55.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "AnimalsBase.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\AnimalsBase.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\AnimalsBase.cs",
@@ -297,25 +307,23 @@
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\AnimalsBase.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T04:37:39.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T04:37:39.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "DialogSystem.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\DialogSystem.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\DialogSystem.cs",
               "ToolTip": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\DialogSystem.cs",
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\Tools\\DialogSystem\\DialogSystem.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwCMAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T04:01:38.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T04:01:38.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "CenterReseter.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\CenterReseter.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\CenterReseter.cs",
@@ -327,20 +335,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "RunState.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Player\\RunState.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Player\\RunState.cs",
               "ToolTip": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Player\\RunState.cs",
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\Player\\RunState.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAzwCcAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwCcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T11:49:44.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T11:49:44.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 15,
               "Title": "BaseState.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Player\\BaseState.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Player\\BaseState.cs",
@@ -352,31 +359,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 14,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Player\\PlayerController.cs",
               "ToolTip": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Player\\PlayerController.cs",
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwBUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T05:19:47.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "WalkState.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Player\\WalkState.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Player\\WalkState.cs",
               "ToolTip": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Player\\WalkState.cs",
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\Player\\WalkState.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T15:54:58.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 34,
               "Title": "ItemEffectBase.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\ItemEffectBase.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\ItemEffectBase.cs",
@@ -388,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 35,
               "Title": "ReplayButton.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\UISystem\\ReplayButton.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\UISystem\\ReplayButton.cs",
@@ -400,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 6,
               "Title": "EndScene.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\UISystem\\EndScene.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\UISystem\\EndScene.cs",
@@ -408,11 +415,12 @@
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\UISystem\\EndScene.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T00:45:01.825Z"
+              "WhenOpened": "2025-10-28T00:45:01.825Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "MapRotate.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\MapRotate.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\MapRotate.cs",
@@ -424,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "MapRotateEffect.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\MapRotateEffect.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\MapRotateEffect.cs",
@@ -436,55 +444,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 0,
               "Title": "FireEffect.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\FireEffect.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\FireEffect.cs",
               "ToolTip": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\FireEffect.cs",
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\Tools\\FireEffect.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCcAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T05:13:34.83Z"
+              "WhenOpened": "2025-10-27T05:13:34.83Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 2,
               "Title": "Peal.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\Peal.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\Peal.cs",
               "ToolTip": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\Peal.cs",
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\Tools\\Peal.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCsAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T16:01:35.436Z"
+              "WhenOpened": "2025-10-25T16:01:35.436Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 13,
               "Title": "FrogInfoUI.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\UISystem\\FrogInfoUI.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\UISystem\\FrogInfoUI.cs",
               "ToolTip": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\UISystem\\FrogInfoUI.cs",
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\UISystem\\FrogInfoUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T07:55:37.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 5,
               "Title": "ItemManager.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Player\\ItemManager.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Player\\ItemManager.cs",
               "ToolTip": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Player\\ItemManager.cs",
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\Player\\ItemManager.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwFMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwFMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T15:52:55.94Z"
+              "WhenOpened": "2025-10-25T15:52:55.94Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 10,
               "Title": "PlayerInfoUI.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\UISystem\\PlayerInfoUI.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\UISystem\\PlayerInfoUI.cs",
@@ -496,19 +507,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 1,
               "Title": "MapImage.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\UISystem\\MapImage.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\UISystem\\MapImage.cs",
               "ToolTip": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\UISystem\\MapImage.cs",
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\UISystem\\MapImage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T05:20:45.064Z"
+              "WhenOpened": "2025-10-27T05:20:45.064Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "PlayerFsm.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Player\\PlayerFsm.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Player\\PlayerFsm.cs",
@@ -520,19 +532,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 3,
               "Title": "EndTigger.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\EndTigger.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\EndTigger.cs",
               "ToolTip": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\EndTigger.cs",
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\EndTigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T05:07:37.831Z"
+              "WhenOpened": "2025-10-27T05:07:37.831Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "LanternEffect.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\LanternEffect.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\LanternEffect.cs",
@@ -544,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "PickUpEffect.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\PickUpEffect.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\PickUpEffect.cs",
@@ -556,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "ReturnGameButton.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\UISystem\\ReturnGameButton.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\UISystem\\ReturnGameButton.cs",
@@ -568,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "StopGameButton.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\UISystem\\StopGameButton.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\UISystem\\StopGameButton.cs",
@@ -580,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 12,
               "Title": "StartButton.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\UISystem\\StartButton.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\UISystem\\StartButton.cs",
@@ -592,19 +605,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 11,
               "Title": "SittingButton.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\UISystem\\SittingButton.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\UISystem\\SittingButton.cs",
               "ToolTip": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\UISystem\\SittingButton.cs",
               "RelativeToolTip": "Assets\\LiZhi\\Scripts\\UISystem\\SittingButton.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-26T10:29:57.862Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "ExitButton.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\UISystem\\ExitButton.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\UISystem\\ExitButton.cs",
@@ -616,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "TalkEffect.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\TalkEffect.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\TalkEffect.cs",
@@ -628,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 28,
               "Title": "FrogEffect.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\FrogEffect.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\FrogEffect.cs",
@@ -640,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 33,
               "Title": "Toad.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\Fleecebell\\Scripts\\Toad.cs",
               "RelativeDocumentMoniker": "Assets\\Fleecebell\\Scripts\\Toad.cs",
@@ -652,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 32,
               "Title": "PlayerAni.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\Fleecebell\\Scripts\\PlayerAni.cs",
               "RelativeDocumentMoniker": "Assets\\Fleecebell\\Scripts\\PlayerAni.cs",
@@ -664,20 +677,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Insect.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\Fleecebell\\Scripts\\Insect.cs",
               "RelativeDocumentMoniker": "Assets\\Fleecebell\\Scripts\\Insect.cs",
               "ToolTip": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\Fleecebell\\Scripts\\Insect.cs",
               "RelativeToolTip": "Assets\\Fleecebell\\Scripts\\Insect.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T17:44:45.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T17:44:45.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 31,
               "Title": "Key.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\Key.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\Key.cs",
@@ -689,7 +701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 29,
               "Title": "DisslutionCenter1.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\DisslutionCenter1.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\DisslutionCenter1.cs",
@@ -701,19 +713,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 8,
               "Title": "BLCollider.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\Fleecebell\\Scripts\\BLCollider.cs",
               "RelativeDocumentMoniker": "Assets\\Fleecebell\\Scripts\\BLCollider.cs",
               "ToolTip": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\Fleecebell\\Scripts\\BLCollider.cs",
               "RelativeToolTip": "Assets\\Fleecebell\\Scripts\\BLCollider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAI0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T16:03:20.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "DoorEffect.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\DoorEffect.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\DoorEffect.cs",
@@ -725,7 +737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 30,
               "Title": "PlayerRaycast.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Player\\PlayerRaycast.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Player\\PlayerRaycast.cs",
@@ -737,7 +749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "BaseTool.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\OldScripts\\BaseTool.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\OldScripts\\BaseTool.cs",
@@ -749,7 +761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 21,
               "Title": "Torch.cs",
               "DocumentMoniker": "E:\\UnityProject\\documents GitHub\\2025TapTapGameJam\\Assets\\LiZhi\\Scripts\\Tools\\Torch.cs",
               "RelativeDocumentMoniker": "Assets\\LiZhi\\Scripts\\Tools\\Torch.cs",

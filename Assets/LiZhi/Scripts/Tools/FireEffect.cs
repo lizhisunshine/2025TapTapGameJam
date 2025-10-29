@@ -10,15 +10,16 @@ public class FireEffect : ItemEffectBase
     [SerializeField] private GameObject LastDoor;
 
     //地图ui
-    public GameObject MapUI;
+    [SerializeField] private GameObject MapUI;
 
     public void OnEnable()
     {
         LastFire = LastDoor = null;
-        MapUI = GameObject.Find("MapImage");
     }
     public override bool Execute(GameObject user, GameObject obj)
     {
+        MapUI = GameObject.Find("MapImage");
+
         //if(!obj.GetComponent<Peal>().door.GetComponent<Door>().isOpen&& !obj.GetComponent<Peal>().door.GetComponent<Door>().isClose)
         if (LastFire == null)
         {             
@@ -38,10 +39,15 @@ public class FireEffect : ItemEffectBase
             //obj.GetComponent<AudioSource>().PlayOneShot(effectSound);
 
             //更新ui地图的方法
+            if (MapUI.GetComponent<MapImage>().InsideMapImage != null)
+            {
+                MapUI.GetComponent<MapImage>().InsideMapImage.SetActive(false);
+                MapUI.GetComponent<MapImage>().SurfaceMapImage.SetActive(false);
+            }
             MapUI.GetComponent<MapImage>().InsideMapImage = obj.GetComponent<Peal>().levelInsideMap;
             MapUI.GetComponent<MapImage>().InsideMapImage.SetActive(false);
             MapUI.GetComponent<MapImage>().SurfaceMapImage = obj.GetComponent<Peal>().levelSurfaceMap;
-            MapUI.GetComponent<MapImage>().InsideMapImage.SetActive(true);
+            MapUI.GetComponent<MapImage>().SurfaceMapImage.SetActive(true);
 
         }
         if (LastFire != null)
@@ -67,6 +73,12 @@ public class FireEffect : ItemEffectBase
                 { obj.GetComponent<AudioSource>().PlayOneShot(effectSound); }
 
                 //更新ui地图的方法
+                if (MapUI.GetComponent<MapImage>().InsideMapImage != null)
+                {
+                    MapUI.GetComponent<MapImage>().InsideMapImage.SetActive(false);
+                    MapUI.GetComponent<MapImage>().SurfaceMapImage.SetActive(false);
+
+                }
                 MapUI.GetComponent<MapImage>().InsideMapImage = obj.GetComponent<Peal>().levelInsideMap;
                 MapUI.GetComponent<MapImage>().InsideMapImage.SetActive(false);
                 MapUI.GetComponent<MapImage>().SurfaceMapImage = obj.GetComponent<Peal>().levelSurfaceMap;

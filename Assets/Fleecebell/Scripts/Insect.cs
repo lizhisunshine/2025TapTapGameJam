@@ -4,51 +4,12 @@ using UnityEngine.AI;
 public class Insect : MonoBehaviour
 {
     public int i = 0;
+    public bool inTarget = false;
 
-    public GameObject L0_tar1;
-    public GameObject L0_tar2;
-    public GameObject L0_tar3;
-    public GameObject L0_tar4;
-    public GameObject L0_tar5;
-
-    public GameObject L1_tar1;
-    public GameObject L1_tar2;
-    public GameObject L1_tar3;
-    public GameObject L1_tar4;
-    public GameObject L1_tar5;
-    public GameObject L1_tar6;
-    public GameObject L1_tar7;
-
-    public GameObject L2_tar1;
-    public GameObject L2_tar2;
-    public GameObject L2_tar3;
-    public GameObject L2_tar4;
-    public GameObject L2_tar5;
-    public GameObject L2_tar6;
-
-    public GameObject L3_tar1;
-    public GameObject L3_tar2;  
-    public GameObject L3_tar3;
-    public GameObject L3_tar4;
-    public GameObject L3_tar5;
-    public GameObject L3_tar6;
-
-    public GameObject L4_tar1;
-    public GameObject L4_tar2;
-    public GameObject L4_tar3;
-    public GameObject L4_tar4;
-    public GameObject L4_tar5;
-    public GameObject L4_tar6;
-
-    public GameObject L5_tar1;
-    public GameObject L5_tar2;
-    public GameObject L5_tar3;
-    public GameObject L5_tar4;
-    public GameObject L5_tar5;
-    public GameObject L5_tar6;
-    public GameObject L5_tar7;
-
+    public GameObject[] target;
     private NavMeshAgent agent;
+
+    public bool isLightOn;//判断某位置灯笼是否被点亮
 
     void Start()
     {
@@ -57,21 +18,39 @@ public class Insect : MonoBehaviour
 
     void Update()
     {
-        if (L0_tar1 != null && i == 0)
+        agent.SetDestination(target[i].transform.position);
+
+        if (Input.GetKeyDown(KeyCode.C)) i++;
+        Debug.Log("i="+i);
+
+        if (i > target.Length) return;
+
+        if (isLightOn)
         {
-            agent.SetDestination(L0_tar1.transform.position);
+            i++;
+            isLightOn = false;
         }
+    }
 
-        if(i == 2)
+    private void OnTriggerEnter(Collider other)
+    {
+        if ((i == 4 || i == 11 || i == 17 || i == 23 || i == 29 || i == 36)&&!isLightOn)
+        { 
+            //当飞虫处于特定位置时，让它不能再继续前进
+            return;
+        }
+        else if (other.gameObject.tag == "PlayerFather" && inTarget)
         {
-            agent.SetDestination(target2.transform.position);
+            i++;
+            //isLightOn = false;
         }
-
-        if(i == 3)
-        {
-            agent.SetDestination(target3.transform.position);
-        }
-
-
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.tag == "Target") inTarget = true;
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Target") inTarget = false;
     }
 }

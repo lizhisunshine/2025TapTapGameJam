@@ -37,6 +37,10 @@ public class DialogSystem:MonoBehaviour
     public float maxDistance;
     //public GameObject lastAnimal; 
 
+    [Header("音效")]
+    public AudioSource TalkSource;
+    public AudioClip TalkClip;
+
     public void Start()
     {
         //maxDistance = 10;
@@ -101,6 +105,8 @@ public class DialogSystem:MonoBehaviour
                     timer = 0;//重置
                     wordNumber++;//文字数量+1
 
+                    TalkSource.PlayOneShot(TalkClip);
+
                     //Substring() 官方文档解释：从此实例检索子字符串。 子字符串从指定的字符位置开始且具有指定的长度。
                     ContentText.GetComponent<TMP_Text>().text = contant.Substring((0), wordNumber);
                     if (wordNumber >= contant.Length)//数字数量=文字的长度
@@ -128,6 +134,8 @@ public class DialogSystem:MonoBehaviour
                 {
                     timer = 0;//重置
                     wordNumber++;//文字数量+1
+
+                    TalkSource.PlayOneShot(TalkClip);
 
                     //Substring() 官方文档解释：从此实例检索子字符串。 子字符串从指定的字符位置开始且具有指定的长度。
                     ContentText.GetComponent<TMP_Text>().text = contant.Substring((0), wordNumber);

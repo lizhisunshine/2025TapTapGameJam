@@ -56,9 +56,18 @@ public class Key : MonoBehaviour
     {
         if (other.CompareTag("PlayerFather"))
         {
+            if (!isFollow && this.GetComponent<AudioSource>() != null)
+            {
+                this.GetComponent<AudioSource>().Play();
+            }
             Debug.Log("完成玩家绑定");
             isFollow = true;
             player = other.gameObject;
+
+            //if (this.GetComponent<AudioSource>() != null)
+            //{
+            //    this.GetComponent<AudioSource>().Play();
+            //}
         }
     }
 }
