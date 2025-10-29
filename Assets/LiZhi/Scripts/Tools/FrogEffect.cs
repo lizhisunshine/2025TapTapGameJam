@@ -8,6 +8,7 @@ public class FrogEffext : ItemEffectBase
 {
     public bool isHadPick ;
 
+    [SerializeField] protected AudioClip CloseSound;
     public void OnEnable()
     {
         isHadPick = false;
@@ -31,8 +32,10 @@ public class FrogEffext : ItemEffectBase
             isHadPick = false;
             user.GetComponent<ItemManager>().isHadPick = isHadPick;
 
-            if (effectSound != null && obj.GetComponent<AudioSource>() != null)
-            { obj.GetComponent<AudioSource>().PlayOneShot(effectSound); }
+            if (CloseSound != null && obj.GetComponent<AudioSource>() != null)
+            {
+                obj.GetComponent<AudioSource>().PlayOneShot(CloseSound); 
+            }
 
             return true;
         }
@@ -56,7 +59,9 @@ public class FrogEffext : ItemEffectBase
             user.GetComponent<ItemManager>().isHadPick = isHadPick;
 
             if (effectSound != null && obj.GetComponent<AudioSource>() != null)
-            { obj.GetComponent<AudioSource>().PlayOneShot(effectSound); }
+            {
+                obj.GetComponent<AudioSource>().PlayOneShot(effectSound); 
+            }
 
 
         }

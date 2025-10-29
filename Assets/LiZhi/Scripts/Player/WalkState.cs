@@ -23,7 +23,24 @@ public class WalkState : BaseState
 
     public override void OnEnter()
     {
-        paramator.walkMusic.Play();
+        //paramator.InsidewalkMusic.Play();
+        if (paramator.CenterPointControler.GetComponent<DisslutionCenter1>().target != null)
+        {
+            if (Vector3.Distance(paramator.CenterPointControler.GetComponent<DisslutionCenter1>().target.position, paramator.playerTransform.position)
+                >= paramator.CenterPointControler.GetComponent<DisslutionCenter1>().distance)
+            {
+                paramator.InsidewalkMusic.Play();
+            }
+            else
+            {
+                paramator.OutsidewalkMusic.Play();
+            }
+        }
+        else 
+        {
+            paramator.InsidewalkMusic.Play();
+        }
+
 
     }
 
@@ -70,6 +87,7 @@ public class WalkState : BaseState
 
     public override void OnExit()
     {
-        paramator.walkMusic.Stop();
+        paramator.InsidewalkMusic.Stop();
+        paramator.OutsidewalkMusic.Stop();
     }
 }

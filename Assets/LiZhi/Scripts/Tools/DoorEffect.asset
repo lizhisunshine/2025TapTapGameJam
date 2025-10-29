@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectName: "\u6548\u679C"
   effectDescription: "\u6548\u679C\u63CF\u8FF0"
-  effectSound: {fileID: 8300000, guid: 04ac95fb0e6326e4ebf1758a55695cfd, type: 3}
+  effectSound: {fileID: 8300000, guid: 7d1030637db4fdd49a4f41da5602f692, type: 3}
   downHigh: 5
