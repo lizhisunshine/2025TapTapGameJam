@@ -28,13 +28,13 @@ public class DisslutionCenter1 : MonoBehaviour
     public float Speed;
     // Start is clled before the first frame update
     void Start()
-    { 
+    {
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (target&&material1&&material2 && material1_.Length > 0 && material2_.Length > 0)
+        if (target && material1 && material2 && material1_.Length > 0 && material2_.Length > 0)
         {
             material1.SetVector("_Center", target.position);
             material2.SetVector("_Center", target.position);
@@ -61,13 +61,13 @@ public class DisslutionCenter1 : MonoBehaviour
 
         if (isShrink)
         {
-            distance = Mathf.Lerp(distance, minDistance, Time.deltaTime*Speed);
+            distance = Mathf.Lerp(distance, minDistance, Time.deltaTime * Speed);
         }
         else if (isDiffusion)
         {
             distance = Mathf.Lerp(distance, maxDistance, Time.deltaTime * Speed);
         }
-        else 
+        else
         {
             distance = Mathf.Lerp(distance, normalDistance, Time.deltaTime * Speed);
         }

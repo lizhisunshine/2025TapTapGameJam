@@ -1,5 +1,6 @@
 using System.Linq;
 using UnityEngine;
+//using UnityEngine.UIElements;
 
 public class BLCollider : MonoBehaviour
 {
@@ -15,13 +16,13 @@ public class BLCollider : MonoBehaviour
     public GameObject Biao2;
     public GameObject Biao3;
     public GameObject Biao4;
-    //public GameObject Biao5;
+    public GameObject Biao5;
     public GameObject Li0;
     public GameObject Li1;
     public GameObject Li2;
     public GameObject Li3;
     public GameObject Li4;
-    //public GameObject Li5;
+    public GameObject Li5;
 
     public Collider[] BiaoCollider;
     public Collider[] LiCollider;
@@ -34,6 +35,7 @@ public class BLCollider : MonoBehaviour
 
     Vector3 lastValidPosition;
 
+    //public Vector3 BallPosition;
 
     void Start()
     {
@@ -78,13 +80,13 @@ public class BLCollider : MonoBehaviour
                 BiaoCollider = BiaoCollider.Concat(new Collider[] { child1.GetComponent<Collider>() }).ToArray();
             }
         }
-        //foreach (Transform child1 in Biao5.transform)
-        //{
-        //    if (child1.GetComponent<Collider>() != null)
-        //    {
-        //        BiaoCollider = BiaoCollider.Concat(new Collider[] { child1.GetComponent<Collider>() }).ToArray();
-        //    }
-        //}
+        foreach (Transform child1 in Biao5.transform)
+        {
+            if (child1.GetComponent<Collider>() != null)
+            {
+                BiaoCollider = BiaoCollider.Concat(new Collider[] { child1.GetComponent<Collider>() }).ToArray();
+            }
+        }
 
         //将Li的所有带有Collider的子物体添加到LiCollider数组中
         foreach (Transform child2 in Li0.transform)
@@ -122,15 +124,14 @@ public class BLCollider : MonoBehaviour
                 LiCollider = LiCollider.Concat(new Collider[] { child2.GetComponent<Collider>() }).ToArray();
             }
         }
-        //foreach (Transform child2 in Li5.transform)
-        //{
-        //    if (child2.GetComponent<Collider>() != null)
-        //    {
-        //        LiCollider = LiCollider.Concat(new Collider[] { child2.GetComponent<Collider>() }).ToArray();
-        //    }
-        //}
+        foreach (Transform child2 in Li5.transform)
+        {
+            if (child2.GetComponent<Collider>() != null)
+            {
+                LiCollider = LiCollider.Concat(new Collider[] { child2.GetComponent<Collider>() }).ToArray();
+            }
+        }
     }
-
     void Update()
     {
         PlayerToBall();
@@ -138,21 +139,31 @@ public class BLCollider : MonoBehaviour
         QCol();
 
         Debug.Log(BCollider + " " + LCollider + " " + QCollider);
+        Debug.Log(PlayerDis + " " + R);
     }
-    
+
 
     void PlayerToBall()
     {
-        Vector3 positionA = player.transform.position;
-        Vector3 positionB = ball.transform.position;
-        PlayerDis = 2 * Vector3.Distance(positionA, positionB);
-        R = dissolutionCenter1.distance;
+        if (ball != null)
+        {
+            Vector3 positionA = player.transform.position;
+            Vector3 positionB = ball.transform.position;
+            PlayerDis = 2 * Vector3.Distance(positionA, positionB);
+            R = dissolutionCenter1.distance;
+        }
+        else 
+        {
+            PlayerDis = 0;
+            R = 0;
+        }
+
     }
     void BLCol()
     {
         if (PlayerDis >= R && !BCollider && !LCollider)
         {
-            Debug.Log("1");
+            //Debug.Log("1");
             foreach (Collider col in BiaoCollider)
             {
                 col.isTrigger = false;
@@ -164,7 +175,7 @@ public class BLCollider : MonoBehaviour
         }
         else if (PlayerDis >= R && !BCollider && LCollider)
         {
-            Debug.Log("2");
+            //Debug.Log("2");
             foreach (Collider col in BiaoCollider)
             {
                 col.isTrigger = false;
@@ -173,14 +184,14 @@ public class BLCollider : MonoBehaviour
             {
                 col.isTrigger = true;
             }
-            if(QCollider)
+            if (QCollider)
             {
                 lastPosition();
             }
         }
         if (PlayerDis < R && !BCollider && !LCollider)
         {
-            Debug.Log("3");
+            //Debug.Log("3");
             foreach (Collider col in BiaoCollider)
             {
                 col.isTrigger = true;
@@ -192,7 +203,7 @@ public class BLCollider : MonoBehaviour
         }
         else if (PlayerDis <= R && BCollider && !LCollider)
         {
-            Debug.Log("4");
+            //Debug.Log("4");
             foreach (Collider col in BiaoCollider)
             {
                 col.isTrigger = true;
@@ -210,7 +221,7 @@ public class BLCollider : MonoBehaviour
     void QCol()
     {
         lastValidPosition = player.transform.position;
-        if (PlayerDis > R - .5f && PlayerDis < R + .5f) 
+        if (PlayerDis > R - .5f && PlayerDis < R + .5f)
         {
             QCollider = true;
         }
@@ -225,7 +236,7 @@ public class BLCollider : MonoBehaviour
         player.transform.position = lastValidPosition;
         Debug.Log("last position");
         //按w就往z轴反方向弹，按s就往z轴正方向弹，按a就往x轴方向弹，按d就往x轴反方向弹
-        if(Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W))
         {
             player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z - .3f);
         }

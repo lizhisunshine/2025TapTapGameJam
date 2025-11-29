@@ -12,12 +12,21 @@ public class MapRotateEffect : ItemEffectBase
         //obj.GetComponent<MapRotate>().mapObj.transform.Rotate(0, 90, 0);
 
         //obj.GetComponent<MapRotate>().targetRotate = Quaternion.Euler(0f, obj.GetComponent<MapRotate>().mapObj.transform.rotation.y + 90, 0f);
-
+        if (obj.GetComponent<MapRotate>().targetRotate >= 360)
+            {
+                obj.GetComponent<MapRotate>().targetRotate = 0;
+            }
         if (!obj.GetComponent<MapRotate>().isRotate)
         {
-            obj.GetComponent<MapRotate>().targetRotate = obj.GetComponent<MapRotate>().mapObj.transform.eulerAngles.y+90;
+            obj.GetComponent<MapRotate>().targetRotate = obj.GetComponent<MapRotate>().mapObjInside.transform.eulerAngles.y+90;
+            //obj.GetComponent<MapRotate>().targetRotate = obj.GetComponent<MapRotate>().mapObjSurface.transform.eulerAngles.y+90;
+
         }
         obj.GetComponent<MapRotate>().isRotate = true;
+
+        //播放音效方法
+        if (effectSound != null && obj.GetComponent<AudioSource>() != null)
+        { obj.GetComponent<AudioSource>().PlayOneShot(effectSound); }
 
         return true;
     }

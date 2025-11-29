@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Frog : MonoBehaviour
 {
-    [SerializeField]private GameObject item;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()

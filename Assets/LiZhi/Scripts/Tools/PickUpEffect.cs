@@ -16,12 +16,17 @@ public class PickUpEffect : ItemEffectBase
         {
             Debug.Log("放下了物体");
             user.GetComponent<ItemManager>().lastEffect = null;
-
+            //播放音效方法
+            if (effectSound != null && obj.GetComponent<AudioSource>() != null)
+            { obj.GetComponent<AudioSource>().PlayOneShot(effectSound); }
         }
         else
         {
             Debug.Log("拿起了物体");
             user.GetComponent<ItemManager>().item = obj;
+            //播放音效方法
+            if (effectSound != null && obj.GetComponent<AudioSource>() != null)
+            { obj.GetComponent<AudioSource>().PlayOneShot(effectSound); }
         }
 
 

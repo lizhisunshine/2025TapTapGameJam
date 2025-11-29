@@ -4,9 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - BCollider
   - LCollider
+  - BCollider
   - QCollider
+  - PlayerFather
+  - hands
+  - Target
   layers:
   - Default
   - TransparentFX
@@ -17,9 +20,9 @@ TagManager:
   - 
   - InteractiveObjects
   - 
+  - 
+  - 
   - Item
-  - 
-  - 
   - 
   - 
   - 

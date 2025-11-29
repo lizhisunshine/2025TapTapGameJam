@@ -1,16 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class Insect : MonoBehaviour
 {
-    private NavMeshAgent agent;
-    public GameObject target1;
-    public GameObject target2;
-    public GameObject target3;
+    public int i = 0;
+    public bool inTarget = false;
 
-    int i = 0;
+    public GameObject[] target;
+    private NavMeshAgent agent;
+
+    public bool isLightOn;//判断某位置灯笼是否被点亮
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -18,32 +18,39 @@ public class Insect : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.F) && i <= 3)
+        agent.SetDestination(target[i].transform.position);
+
+        if (Input.GetKeyDown(KeyCode.C)) i++;
+        Debug.Log("i="+i);
+
+        if (i > target.Length) return;
+
+        if (isLightOn)
         {
             i++;
-            Debug.Log(i);
+            isLightOn = false;
         }
-        if(i == 4)
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if ((i == 4 || i == 11 || i == 17 || i == 23 || i == 29 || i == 36)&&!isLightOn)
+        { 
+            //当飞虫处于特定位置时，让它不能再继续前进
+            return;
+        }
+        else if (other.gameObject.tag == "PlayerFather" && inTarget)
         {
-            i = 1;
-            Debug.Log(i);
+            i++;
+            //isLightOn = false;
         }
-
-        if (target1 != null && i == 1)
-        {
-            agent.SetDestination(target1.transform.position);
-        }
-
-        if(i == 2)
-        {
-            agent.SetDestination(target2.transform.position);
-        }
-
-        if(i == 3)
-        {
-            agent.SetDestination(target3.transform.position);
-        }
-
-
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.tag == "Target") inTarget = true;
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Target") inTarget = false;
     }
 }

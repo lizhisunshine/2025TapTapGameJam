@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectName: "\u5854\u67F1\u6548\u679C"
   effectDescription: "\u53EF\u4EE5\u653E\u5165\u6216\u53D6\u4E0B\u7269\u4F53"
-  effectSound: {fileID: 0}
-  maxDistance: 100
+  effectSound: {fileID: 8300000, guid: 50db83f1b88d95e448aaaf9a5754f685, type: 3}
+  torchSoffet: 6
