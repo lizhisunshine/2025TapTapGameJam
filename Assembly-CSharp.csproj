@@ -282,6 +282,17 @@
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
       <HintPath>E:\unity\Hub\Editor\2022.3.55f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+<<<<<<< Updated upstream
+=======
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>E:\unity\Hub\Editor\2022.3.55f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>E:\unity\Hub\Editor\2022.3.55f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+>>>>>>> Stashed changes
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ContentLoadModule">
@@ -494,6 +505,13 @@
     </Reference>
     <Reference Include="UnityEngine.VideoModule">
       <HintPath>E:\unity\Hub\Editor\2022.3.55f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+<<<<<<< Updated upstream
+=======
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>E:\unity\Hub\Editor\2022.3.55f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+>>>>>>> Stashed changes
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.WindModule">

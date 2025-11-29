@@ -93,7 +93,11 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+<<<<<<< Updated upstream
     - _Distance: 18
+=======
+    - _Distance: 4.2
+>>>>>>> Stashed changes
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
