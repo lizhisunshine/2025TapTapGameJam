@@ -29,24 +29,24 @@ public class Animals6 : AnimalsBase
             case 2:
                 dialogSystem.wordNumber = 0;
                 //dialogSystem.PlayerName = "主角";
-                dialogSystem.ObjName = "村长";
-                dialogSystem.contant = "哇...! 是一个活体狐狸...！";
+                dialogSystem.ObjName = "小羊";
+                dialogSystem.contant = "哦，谢谢你好心狐";
                 dialogSystem.isPlayerTalk = false;
                 dialogSystem.isStart = true;
                 break;
             case 1:
                 dialogSystem.wordNumber = 0;
                 //dialogSystem.PlayerName = "主角";
-                dialogSystem.ObjName = "村长";
-                dialogSystem.contant = "我认为紧跟着飞蛾是一个好选择";
+                dialogSystem.ObjName = "小羊";
+                dialogSystem.contant = "既然你找到了我，那么证明你的旅途也快结束了吧";
                 dialogSystem.isPlayerTalk = false;
                 dialogSystem.isStart = true;
                 break;
             case 0:
                 dialogSystem.wordNumber = 0;
                 //dialogSystem.PlayerName = "主角";
-                dialogSystem.ObjName = "村长";
-                dialogSystem.contant = "我听说用”R“可以回到篝火前...";
+                dialogSystem.ObjName = "小羊";
+                dialogSystem.contant = "希望你未来的生活也能一帆风顺！";
                 dialogSystem.isPlayerTalk = false;
                 dialogSystem.isStart = true;
                 break;

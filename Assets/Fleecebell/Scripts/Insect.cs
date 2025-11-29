@@ -20,7 +20,7 @@ public class Insect : MonoBehaviour
     {
         agent.SetDestination(target[i].transform.position);
 
-        if (Input.GetKeyDown(KeyCode.C)) i++;
+        //if (Input.GetKeyDown(KeyCode.C)) i++;
         Debug.Log("i="+i);
 
         if (i > target.Length) return;

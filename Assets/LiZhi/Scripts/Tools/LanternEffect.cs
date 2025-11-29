@@ -16,6 +16,7 @@ public class LanternEffect : ItemEffectBase
     }
     public override bool Execute(GameObject user, GameObject obj)
     {
+        Flys = GameObject.Find("particle (1)");
         i = Flys.GetComponent<Insect>().i;
         if ((i == 4 || i == 11 || i == 17 || i == 23 || i == 29 || i == 36))
         {

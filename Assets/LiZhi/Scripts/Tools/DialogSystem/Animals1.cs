@@ -9,8 +9,8 @@ public class Animals1 : AnimalsBase
     public DialogSystem dialogSystem;
     public void Start()
     {
-        TalkNum = 9;
-         this.gameObject.GetComponent<Peal>().talkNum=TalkNum;
+        TalkNum = 11;
+        this.gameObject.GetComponent<Peal>().talkNum = TalkNum;
     }
     public void Update()
     {
@@ -28,7 +28,7 @@ public class Animals1 : AnimalsBase
     {
         switch (TalkNum)
         {
-            case 9:
+            case 11:
                 dialogSystem.wordNumber = 0;
                 //dialogSystem.PlayerName = "主角";
                 dialogSystem.ObjName = "村长";
@@ -36,7 +36,7 @@ public class Animals1 : AnimalsBase
                 dialogSystem.isPlayerTalk = false;
                 dialogSystem.isStart = true;
                 break;
-            case 8:
+            case 10:
                 dialogSystem.wordNumber = 0;
                 //dialogSystem.PlayerName = "主角";
                 dialogSystem.ObjName = "村长";
@@ -44,7 +44,7 @@ public class Animals1 : AnimalsBase
                 dialogSystem.isPlayerTalk = true;
                 dialogSystem.isStart = true;
                 break;
-            case 7:
+            case 9:
                 dialogSystem.wordNumber = 0;
                 //dialogSystem.PlayerName = "主角";
                 dialogSystem.ObjName = "村长";
@@ -52,7 +52,7 @@ public class Animals1 : AnimalsBase
                 dialogSystem.isPlayerTalk = false;
                 dialogSystem.isStart = true;
                 break;
-            case 6:
+            case 8:
                 dialogSystem.wordNumber = 0;
                 //dialogSystem.PlayerName = "主角";
                 dialogSystem.ObjName = "村长";
@@ -60,7 +60,7 @@ public class Animals1 : AnimalsBase
                 dialogSystem.isPlayerTalk = false;
                 dialogSystem.isStart = true;
                 break;
-            case 5:
+            case 7:
                 dialogSystem.wordNumber = 0;
                 //dialogSystem.PlayerName = "主角";
                 dialogSystem.ObjName = "村长";
@@ -68,7 +68,7 @@ public class Animals1 : AnimalsBase
                 dialogSystem.isPlayerTalk = true;
                 dialogSystem.isStart = true;
                 break;
-            case 4:
+            case 6:
                 dialogSystem.wordNumber = 0;
                 //dialogSystem.PlayerName = "主角";
                 dialogSystem.ObjName = "村长";
@@ -76,15 +76,15 @@ public class Animals1 : AnimalsBase
                 dialogSystem.isPlayerTalk = false;
                 dialogSystem.isStart = true;
                 break;
-            case 3:
+            case 5:
                 dialogSystem.wordNumber = 0;
                 //dialogSystem.PlayerName = "主角";
                 dialogSystem.ObjName = "村长";
-                dialogSystem.contant = "找到它们，然后回到这里，我们就能帮你回家。";
+                dialogSystem.contant = "找到它们，然后走到石板路的另一侧，我们就能帮你回家。";
                 dialogSystem.isPlayerTalk = false;
                 dialogSystem.isStart = true;
                 break;
-            case 2:
+            case 4:
                 dialogSystem.wordNumber = 0;
                 //dialogSystem.PlayerName = "主角";
                 dialogSystem.ObjName = "村长";
@@ -92,7 +92,7 @@ public class Animals1 : AnimalsBase
                 dialogSystem.isPlayerTalk = true;
                 dialogSystem.isStart = true;
                 break;
-            case 1:
+            case 3:
                 dialogSystem.wordNumber = 0;
                 //dialogSystem.PlayerName = "主角";
                 dialogSystem.ObjName = "村长";
@@ -100,11 +100,28 @@ public class Animals1 : AnimalsBase
                 dialogSystem.isPlayerTalk = false;
                 dialogSystem.isStart = true;
                 break;
+
+            case 2:
+                dialogSystem.wordNumber = 0;
+                //dialogSystem.PlayerName = "主角";
+                dialogSystem.ObjName = "村长";
+                dialogSystem.contant = "切记，只有附近有飞虫的时候，灯笼才可以被点亮。";
+                dialogSystem.isPlayerTalk = false;
+                dialogSystem.isStart = true;
+                break;
+            case 1:
+                dialogSystem.wordNumber = 0;
+                //dialogSystem.PlayerName = "主角";
+                dialogSystem.ObjName = "村长";
+                dialogSystem.contant = "另外，这个森林有很多非常神奇的物品，记得多按E和它们互动，这对你的旅途会有很大帮助。";
+                dialogSystem.isPlayerTalk = false;
+                dialogSystem.isStart = true;
+                break;
             case 0:
                 dialogSystem.wordNumber = 0;
                 //dialogSystem.PlayerName = "主角";
                 dialogSystem.ObjName = "村长";
-                dialogSystem.contant = "对了，这个森林有很多非常神奇的物品，记得多按e和它们互动，这对你的旅途会有很大帮助。";
+                dialogSystem.contant = "你看起来很累了，先试着跟篝火互动一下吧，对着右侧的篝火按E就可以了";
                 dialogSystem.isPlayerTalk = false;
                 dialogSystem.isStart = true;
                 break;
