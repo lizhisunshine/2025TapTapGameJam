@@ -70,18 +70,18 @@ public class WalkState : BaseState
 
 
         //ÒÆ¶¯Âß¼­
-        paramator.rb.velocity = targetDir*paramator.moveSpeed;
+        //paramator.rb.velocity = targetDir*paramator.moveSpeed;
 
         //ÇÐ»»idle
-        if (!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.D))
-        {
-            fsm.SwitchState(E_PlayerState.Idle);
-        }
-        //ÇÐ»»run
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            fsm.SwitchState(E_PlayerState.Run);
-        }
+        //if (!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.D))
+        //{
+        //    fsm.SwitchState(E_PlayerState.Idle);
+        //}
+        ////ÇÐ»»run
+        //if (Input.GetKey(KeyCode.LeftShift))
+        //{
+        //    fsm.SwitchState(E_PlayerState.Run);
+        //}
 
     }
 
