@@ -87,6 +87,7 @@
     <Compile Include="Assets\LiZhi\Scripts\Tools\FireWithDoor.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Tools\DialogSystem\Animals.cs" />
     <Compile Include="Assets\YuanZhi\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\LiZhi\Scripts\Tools\DialogSystem\CunZhangByBy.cs" />
     <Compile Include="Assets\YuanZhi\Assets\Scripts\DialogManager.cs" />
     <Compile Include="Assets\YuanZhi\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Tools\DialogSystem\AnimalsBase.cs" />
@@ -103,6 +104,7 @@
     <Compile Include="Assets\YuanZhi\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\LiZhi\Scripts\FrogEffect1.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Tools\SignboardEffect.cs" />
+    <Compile Include="Assets\LiZhi\Scripts\Tools\DialogSystem\ByeBye.cs" />
     <Compile Include="Assets\YuanZhi\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\LiZhi\Scripts\BgmManeger.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Player\PlayerFsm.cs" />
@@ -148,6 +150,7 @@
     <Compile Include="Assets\LiZhi\Scripts\UISystem\ReplayButton.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Tools\DoorEffect.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Tools\MapRotateEffect.cs" />
+    <Compile Include="Assets\Fleecebell\Scripts\StartToPlay.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Tools\TalkEffect.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Player\PlayerRaycast.cs" />
     <Compile Include="Assets\LiZhi\Scripts\UISystem\ReturnGameButton.cs" />
@@ -159,6 +162,7 @@
     <Compile Include="Assets\LiZhi\Scripts\UISystem\EndScene.cs" />
     <Compile Include="Assets\YuanZhi\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\YuanZhi\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\Fleecebell\Scripts\buttonVoise.cs" />
     <Compile Include="Assets\LiZhi\Scripts\Player\RunState.cs" />
     <Compile Include="Assets\YuanZhi\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\YuanZhi\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />

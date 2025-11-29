@@ -16,7 +16,7 @@ public class FrogEffext : ItemEffectBase
     public override bool Execute(GameObject user, GameObject obj)
     {
         Debug.Log(user.name + " π”√¡ÀÛ∏Ú‹£°");
-        if (user.GetComponent<ItemManager>().isPickSTH&&isHadPick)
+        if (user.GetComponent<ItemManager>().isPickSTH&&isHadPick )
         {
             //user.GetComponent<ItemManager>().item.transform.position = obj.transform.position + Vector3.up * 2;
             //obj.GetComponent<Peal>().item = user.GetComponent<ItemManager>().item;

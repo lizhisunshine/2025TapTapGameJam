@@ -26,27 +26,35 @@ public class Animals4 : AnimalsBase
     {
         switch (TalkNum)
         {
+            case 3:
+                dialogSystem.wordNumber = 0;
+                //dialogSystem.PlayerName = "主角";
+                dialogSystem.ObjName = "小牛";
+                dialogSystem.contant = "哇...!";
+                dialogSystem.isPlayerTalk = false;
+                dialogSystem.isStart = true;
+                break;
             case 2:
                 dialogSystem.wordNumber = 0;
                 //dialogSystem.PlayerName = "主角";
-                dialogSystem.ObjName = "村长";
-                dialogSystem.contant = "哇...! 是一个活体狐狸...！";
-                dialogSystem.isPlayerTalk = false;
+                dialogSystem.ObjName = "小牛";
+                dialogSystem.contant = "是一只活体狐狸";
+                dialogSystem.isPlayerTalk = true;
                 dialogSystem.isStart = true;
                 break;
             case 1:
                 dialogSystem.wordNumber = 0;
                 //dialogSystem.PlayerName = "主角";
-                dialogSystem.ObjName = "村长";
-                dialogSystem.contant = "我认为紧跟着飞蛾是一个好选择";
+                dialogSystem.ObjName = "小牛";
+                dialogSystem.contant = "哇你会读心术吗？你怎么知道我要说什么？";
                 dialogSystem.isPlayerTalk = false;
                 dialogSystem.isStart = true;
                 break;
             case 0:
                 dialogSystem.wordNumber = 0;
                 //dialogSystem.PlayerName = "主角";
-                dialogSystem.ObjName = "村长";
-                dialogSystem.contant = "我听说用”R“可以回到篝火前...";
+                dialogSystem.ObjName = "小牛";
+                dialogSystem.contant = "你先走吧，我一会会到石板路的尽头等你，刚醒我得歇会";
                 dialogSystem.isPlayerTalk = false;
                 dialogSystem.isStart = true;
                 break;

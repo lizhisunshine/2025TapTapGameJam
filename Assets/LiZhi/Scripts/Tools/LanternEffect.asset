@@ -16,3 +16,4 @@ MonoBehaviour:
   effectDescription: "\u70B9\u4EAE\u540E\u4E0D\u80FD\u7184\u706D\n\u4F1A\u589E\u52A0\u70B9\u4EAE\u8BA1\u6570\u5668\uFF0C\u5E76\u4E14\u5C06\u6570\u5B57\u540C\u6B65\u5230ItemManager\u4E2D\u53BB"
   effectSound: {fileID: 8300000, guid: fd4ea1aea7b0813429340802774b7f36, type: 3}
   OnNum: 0
+  Flys: {fileID: 0}

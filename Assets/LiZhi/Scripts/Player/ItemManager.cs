@@ -49,6 +49,9 @@ public class ItemManager : MonoBehaviour
     public GameObject LastAnimal;
     public float AnimalsDistance;
 
+    //修复 卡关问题的参数
+    public FrogEffext frogEffext;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -81,6 +84,12 @@ public class ItemManager : MonoBehaviour
         }
         if (isDead)
         {
+            GameObject.Find("CenterPointController").GetComponent<DisslutionCenter1>().isShrink = true;
+            user.GetComponent<ItemManager>().isPickSTH = false;
+            frogEffext.isHadPick = false;
+            isHadPick = false;
+            Destroy(GameObject.Find("Sphere(Clone)"));
+
             gitNum = nowLevelNum;
 
             transform.position = Fire.transform.position+new Vector3(0,0.9f,2);
