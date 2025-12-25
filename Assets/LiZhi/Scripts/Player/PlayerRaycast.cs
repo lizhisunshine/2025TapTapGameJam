@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerRaycast : MonoBehaviour
 {
-    Ray r ;
+    public Ray r ;
     RaycastHit hitinfo;
     public float rayLength;
     public GameObject player;
