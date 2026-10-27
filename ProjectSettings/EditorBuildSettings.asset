@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Fleecebell/Scenes/Collider.unity
+    guid: 1b152bb76e017d541b9d50627318fa28
+  - enabled: 1
+    path: Assets/Fleecebell/Scenes/EndScene.unity
+    guid: 862a7c6f306e8bd44824d7e9ccc99357
   m_configObjects: {}

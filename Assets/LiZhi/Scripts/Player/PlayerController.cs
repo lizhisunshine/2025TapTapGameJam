@@ -10,12 +10,19 @@ public class PlayerParamator:FsmParamator
     public float moveSpeed;
     public float rotateSpeed;
     public float runSpeed;
-
+    public AudioSource InsidewalkMusic;
+    public AudioSource OutsidewalkMusic;
+    public AudioSource InsideRunMusic;
+    public AudioSource OutsideRunMusic;
 
     //ÆäËü
     public Camera PlayerCamera;
+    //public GameObject PlayerObj;
+    public GameObject CenterPointControler;
     public Rigidbody rb;
     public Transform playerTransform;
+    //public AudioSource PlayerAudioSource;
+
 }
 
 

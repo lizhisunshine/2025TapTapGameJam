@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e02a8504cc9bb64292ab2681209c2a2, type: 3}
+  m_Name: FrogEffect
+  m_EditorClassIdentifier: 
+  effectName: "\u87FE\u870D\u6548\u679C"
+  effectDescription: "\u7528\u6765\u5B58\u5165/\u9500\u6BC1\u7ED9\u5B9A\u9884\u5236\u4F53\n\u5F53\u672A\u5B58\u5165\u65F6\uFF0C\u53EF\u4EE5\u5728\u4EFB\u610F\u7EC8\u7AEF\u5B58\u5165\n\u5F53\u5B58\u5165\u540E\uFF0C\u53EF\u4EE5\u5728\u4EFB\u610F\u7EC8\u7AEF\u53D6\u51FA\n\u9ED8\u8BA4\u8FDB\u5165\u573A\u666F\u5E94\u4E3A\u5DF2\u5B58\u5165\uFF08isHadPick\u4E3Afalse\uFF09\n\u8981\u4F7F\u7528\u87FE\u870D\u7684\u52A8\u753B\uFF0C\u8981\u5C06\u87FE\u870D\u6CE8\u518C\u5728player\u8EAB\u4E0A\u7684itemManager\u811A\u672C\u4E0A\u3002"
+  effectSound: {fileID: 8300000, guid: 8f4bd60d77985144d92172ce96edbbab, type: 3}
+  isHadPick: 0
+  CloseSound: {fileID: 8300000, guid: 2514e50318eda914294edaadaed5668d, type: 3}

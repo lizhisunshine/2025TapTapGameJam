@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93435dccf558f444bbbddbef5da6b15f, type: 3}
+  m_Name: LanternEffect
+  m_EditorClassIdentifier: 
+  effectName: "\u706F\u7B3C\u6548\u679C"
+  effectDescription: "\u70B9\u4EAE\u540E\u4E0D\u80FD\u7184\u706D\n\u4F1A\u589E\u52A0\u70B9\u4EAE\u8BA1\u6570\u5668\uFF0C\u5E76\u4E14\u5C06\u6570\u5B57\u540C\u6B65\u5230ItemManager\u4E2D\u53BB"
+  effectSound: {fileID: 8300000, guid: fd4ea1aea7b0813429340802774b7f36, type: 3}
+  OnNum: 0
+  Flys: {fileID: 0}
